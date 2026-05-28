@@ -2,9 +2,9 @@
   "mcpServers": {
     "ai-control-panel": {
       "command": "uvx",
-      "args": ["ai-control-panel-mcp"],
+      "args": ["--from", "git+https://github.com/DYKJLL/ai-control-panel-mcp", "ai-control-panel-mcp"],
       "env": {
-        "AI_PANEL_URL": "https://你的服务器域名:1984"
+        "AI_PANEL_URL": "http://你的魔塔服务器:1984"
       }
     }
   }
