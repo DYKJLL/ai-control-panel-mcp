@@ -1,0 +1,20 @@
+[project]
+name = "ai-control-panel-mcp"
+version = "0.1.0"
+description = "MCP server for AI Control Panel. Lets any AI use browser image generation & vision via remote API."
+authors = [{ name = "AI Control Panel" }]
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.scripts]
+ai-control-panel-mcp = "ai_control_panel_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
