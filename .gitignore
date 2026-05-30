@@ -1,5 +1,19 @@
 __pycache__/
 *.pyc
-dist/
+*.pyo
 *.egg-info/
 build/
+dist/
+.env
+.venv/
+venv/
+*.spec
+node_modules/
+
+# Server data (runtime, contains cookies/sessions)
+server/data/profiles/
+server/output/
+
+# Windows
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ai-control-panel": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/你的用户名/ai-control-panel", "python", "mcp_server.py"],
+      "env": {
+        "AI_PANEL_URL": "https://你的魔塔域名"
+      }
+    }
+  }
+}
