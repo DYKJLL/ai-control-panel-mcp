@@ -12,6 +12,7 @@ node_modules/
 
 # Server data (runtime, contains cookies/sessions)
 server/data/profiles/
+server/data/browser_profile/
 server/output/
 
 # Windows
